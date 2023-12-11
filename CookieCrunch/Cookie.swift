@@ -55,8 +55,8 @@ enum CookieType: Int {
 
 // MARK: - Cookie
 class Cookie: CustomStringConvertible, Hashable {
-  func hash(into hasher: inout Hasher) { // Formerly 'var hashValue: Int'
-    hasher.combine(row * 10 + column) // Formerly 'return row * 10 + column'
+  func hash(into hasher: inout Hasher) {
+    hasher.combine(row * 10 + column)
   }
   
   static func == (lhs: Cookie, rhs: Cookie) -> Bool {

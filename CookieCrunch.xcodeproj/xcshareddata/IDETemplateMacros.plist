@@ -1,4 +1,9 @@
-/// Copyright (c) 2023 Razeware LLC
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FILEHEADER</key>
+	<string>/ Copyright (c) ___YEAR___ Razeware LLC
 /// 
 /// Permission is hereby granted, free of charge, to any person obtaining a copy
 /// of this software and associated documentation files (the "Software"), to deal
@@ -24,68 +29,6 @@
 /// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 /// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 /// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-/// THE SOFTWARE.
-
-import Foundation
-
-let numColumns = 9
-let numRows = 9
-
-class Level {
-  private var cookies = Array2D<Cookie>(columns: numColumns, rows: numRows)
-  
-  func cookie(atColumn column: Int, row: Int) -> Cookie? {
-    precondition(column >= 0 && column < numColumns)
-    precondition(row >= 0 && row < numRows)
-    return cookies[column, row]
-  }
-  
-  func shuffle() -> Set<Cookie> {
-    return createInitialCookies()
-  }
-  
-  private func createInitialCookies() -> Set<Cookie> {
-    var set: Set<Cookie> = []
-    
-    for row in 0..<numRows {
-      for column in 0..<numColumns {
-        
-        if tiles[column, row] != nil {
-          let cookieType = CookieType.random()
-          
-          let cookie = Cookie(column: column, row: row, cookieType: cookieType)
-          cookies[column, row] = cookie
-          
-          set.insert(cookie)
-        }
-      }
-    }
-    return set
-  }
-  
-  private var tiles = Array2D<Tile>(columns: numColumns, rows: numRows)
-  
-  func tileAt(column: Int, row: Int) -> Tile? {
-    precondition(column >= 0 && column < numColumns)
-    precondition(row >= 0 && row < numRows)
-    return tiles[column, row]
-  }
-  
-  init(filename: String) {
-    
-    guard let levelData = LevelData.loadFrom(file: filename) else { return }
-    
-    let tilesArray = levelData.tiles
-    
-    for (row, rowArray) in tilesArray.enumerated() {
-      
-      let tileRow = numRows - row - 1
-      
-      for (column, value) in rowArray.enumerated() {
-        if value == 1 {
-          tiles[column, tileRow] = Tile()
-        }
-      }
-    }
-  }
-}
+/// THE SOFTWARE.</string>
+</dict>
+</plist>
