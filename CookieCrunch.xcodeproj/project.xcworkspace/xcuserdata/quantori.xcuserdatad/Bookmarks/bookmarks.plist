@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>top-level-items</key>
+	<array>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>58</string>
+					<key>StartingColumnNumber</key>
+					<string>0</string>
+					<key>StartingLineNumber</key>
+					<string>57</string>
+					<key>Timestamp</key>
+					<string>722854206.37481</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>CookieCrunch/Cookie.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>  func hash(into hasher: inout Hasher) { // Formerly 'var hashValue: Int'
+</string>
+				<key>leading</key>
+				<string>// MARK: - Cookie
+class Cookie: CustomStringConvertible, Hashable {
+</string>
+				<key>trailing</key>
+				<string>    hasher.combine(row * 10 + column) // Formerly 'return row * 10 + column'
+  }
+  
+</string>
+			</dict>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>233</string>
+					<key>StartingColumnNumber</key>
+					<string>0</string>
+					<key>StartingLineNumber</key>
+					<string>232</string>
+					<key>Timestamp</key>
+					<string>723650122.135337</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>CookieCrunch/GameScene.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>        var value = (topLeft ? 1 : 0) // Formerly 'topLeft.hashValue'
+</string>
+				<key>leading</key>
+				<string>        &amp;&amp; level.tileAt(column: column, row: row - 1) != nil
+        
+</string>
+				<key>trailing</key>
+				<string>        value = value | (topRight ? 1 : 0) &lt;&lt; 1
+        value = value | (bottomLeft ? 1 : 0) &lt;&lt; 2
+        value = value | (bottomRight ? 1 : 0) &lt;&lt; 3
+</string>
+			</dict>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>6</string>
+					<key>EndingLineNumber</key>
+					<string>41</string>
+					<key>StartingColumnNumber</key>
+					<string>2</string>
+					<key>StartingLineNumber</key>
+					<string>41</string>
+					<key>Timestamp</key>
+					<string>723640434.4737231</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>CookieCrunch/Swap.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>func</string>
+				<key>leading</key>
+				<string>  }
+  
+  </string>
+				<key>trailing</key>
+				<string> hash(into hasher: inout Hasher) { // Formerly 'var hashValue: Int'
+    hasher.combine(cookieA.hashValue ^ cookieB.hashValue)
+    // ^ Formerly 'return cookieA.hashValue ^ cookieB.hashValue'
+</string>
+			</dict>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+	</array>
+</dict>
+</plist>
