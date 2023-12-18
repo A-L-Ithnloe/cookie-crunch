@@ -35,10 +35,14 @@
 			<dict>
 				<key>focused</key>
 <<<<<<< HEAD
+<<<<<<< HEAD
 				<string>  func hash(into hasher: inout Hasher) { // Formerly 'var hashValue: Int'
 =======
 				<string>  func hash(into hasher: inout Hasher) {
 >>>>>>> 1575b20 (Attempt to fix the folder thing)
+=======
+				<string>  func hash(into hasher: inout Hasher) {
+>>>>>>> origin/main
 </string>
 				<key>leading</key>
 				<string>// MARK: - Cookie
@@ -46,10 +50,14 @@ class Cookie: CustomStringConvertible, Hashable {
 </string>
 				<key>trailing</key>
 <<<<<<< HEAD
+<<<<<<< HEAD
 				<string>    hasher.combine(row * 10 + column) // Formerly 'return row * 10 + column'
 =======
 				<string>    hasher.combine(row * 10 + column)
 >>>>>>> 1575b20 (Attempt to fix the folder thing)
+=======
+				<string>    hasher.combine(row * 10 + column)
+>>>>>>> origin/main
   }
   
 </string>
@@ -57,6 +65,7 @@ class Cookie: CustomStringConvertible, Hashable {
 			<key>type</key>
 			<string>bookmark</string>
 		</dict>
+<<<<<<< HEAD
 <<<<<<< HEAD
 		<dict>
 			<key>destination</key>
@@ -149,6 +158,8 @@ class Cookie: CustomStringConvertible, Hashable {
 		</dict>
 =======
 >>>>>>> 1575b20 (Attempt to fix the folder thing)
+=======
+>>>>>>> origin/main
 	</array>
 </dict>
 </plist>

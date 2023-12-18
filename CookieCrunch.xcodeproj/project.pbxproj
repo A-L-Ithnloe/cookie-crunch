@@ -8,9 +8,13 @@
 
 /* Begin PBXBuildFile section */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 		170D54281FB6919C00BB205A /* Grid.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 170D54271FB6919C00BB205A /* Grid.atlas */; };
 >>>>>>> 1575b20 (Attempt to fix the folder thing)
+=======
+		170D54281FB6919C00BB205A /* Grid.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 170D54271FB6919C00BB205A /* Grid.atlas */; };
+>>>>>>> origin/main
 		1769DFF91FE3818B00F99A23 /* LevelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1769DFF81FE3818B00F99A23 /* LevelData.swift */; };
 		1769DFFB1FE383BA00F99A23 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1769DFFA1FE383BA00F99A23 /* Array2D.swift */; };
 		17A7E5721FB513CC0044C48F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A7E5711FB513CC0044C48F /* AppDelegate.swift */; };
@@ -33,19 +37,26 @@
 		17A7E5B01FB53C850044C48F /* Error.wav in Resources */ = {isa = PBXBuildFile; fileRef = 17A7E5AA1FB53C850044C48F /* Error.wav */; };
 		186E13E12069D3DF003EBCA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186E13E02069D3DE003EBCA0 /* LaunchScreen.storyboard */; };
 <<<<<<< HEAD
+<<<<<<< HEAD
 		3D9E2DE52B21D907009D4869 /* Swap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9E2DE42B21D907009D4869 /* Swap.swift */; };
 		3D9E2DE72B21F0F5009D4869 /* Chain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9E2DE62B21F0F5009D4869 /* Chain.swift */; };
 =======
 >>>>>>> 1575b20 (Attempt to fix the folder thing)
+=======
+>>>>>>> origin/main
 		3DBE6DFA2B15DDD40025C636 /* Cookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBE6DF92B15DDD40025C636 /* Cookie.swift */; };
 		3DBE6DFC2B15E1950025C636 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBE6DFB2B15E1950025C636 /* Level.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 		170D54271FB6919C00BB205A /* Grid.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Grid.atlas; sourceTree = "<group>"; };
 >>>>>>> 1575b20 (Attempt to fix the folder thing)
+=======
+		170D54271FB6919C00BB205A /* Grid.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Grid.atlas; sourceTree = "<group>"; };
+>>>>>>> origin/main
 		1769DFF81FE3818B00F99A23 /* LevelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelData.swift; sourceTree = "<group>"; };
 		1769DFFA1FE383BA00F99A23 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 		17A7E56E1FB513CC0044C48F /* CookieCrunch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookieCrunch.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,11 +81,14 @@
 		17A7E5AA1FB53C850044C48F /* Error.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Error.wav; sourceTree = "<group>"; };
 		186E13E02069D3DE003EBCA0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 <<<<<<< HEAD
+<<<<<<< HEAD
 		3D9E2DE32B1F292F009D4869 /* Grid.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Grid.atlas; sourceTree = "<group>"; };
 		3D9E2DE42B21D907009D4869 /* Swap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swap.swift; sourceTree = "<group>"; };
 		3D9E2DE62B21F0F5009D4869 /* Chain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chain.swift; sourceTree = "<group>"; };
 =======
 >>>>>>> 1575b20 (Attempt to fix the folder thing)
+=======
+>>>>>>> origin/main
 		3DBE6DF92B15DDD40025C636 /* Cookie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cookie.swift; sourceTree = "<group>"; };
 		3DBE6DFB2B15E1950025C636 /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 <<<<<<< HEAD
+<<<<<<< HEAD
 				3D9E2DE32B1F292F009D4869 /* Grid.atlas */,
 				17A7E5891FB516370044C48F /* Sprites.atlas */,
 				17A7E5831FB513CC0044C48F /* Info.plist */,
@@ -120,16 +135,21 @@
 				1769DFFA1FE383BA00F99A23 /* Array2D.swift */,
 				3D9E2DE62B21F0F5009D4869 /* Chain.swift */,
 				3DBE6DF92B15DDD40025C636 /* Cookie.swift */,
+=======
+>>>>>>> origin/main
 				17A7E5771FB513CC0044C48F /* GameScene.swift */,
 				17A7E5791FB513CC0044C48F /* GameViewController.swift */,
-				3DBE6DFB2B15E1950025C636 /* Level.swift */,
 				1769DFF81FE3818B00F99A23 /* LevelData.swift */,
-				3D9E2DE42B21D907009D4869 /* Swap.swift */,
+				1769DFFA1FE383BA00F99A23 /* Array2D.swift */,
 				17A7E59C1FB528160044C48F /* Tile.swift */,
-				17A7E57E1FB513CC0044C48F /* Assets.xcassets */,
-				17A7E5911FB525F30044C48F /* Levels */,
+				3DBE6DF92B15DDD40025C636 /* Cookie.swift */,
+				3DBE6DFB2B15E1950025C636 /* Level.swift */,
+				17A7E5711FB513CC0044C48F /* AppDelegate.swift */,
 				17A7E57B1FB513CC0044C48F /* Main.storyboard */,
+				186E13E02069D3DE003EBCA0 /* LaunchScreen.storyboard */,
+				17A7E5831FB513CC0044C48F /* Info.plist */,
 				17A7E5A41FB53C850044C48F /* Sounds */,
+<<<<<<< HEAD
 =======
 				17A7E5771FB513CC0044C48F /* GameScene.swift */,
 				17A7E5791FB513CC0044C48F /* GameViewController.swift */,
@@ -143,11 +163,16 @@
 				186E13E02069D3DE003EBCA0 /* LaunchScreen.storyboard */,
 				17A7E5831FB513CC0044C48F /* Info.plist */,
 				17A7E5A41FB53C850044C48F /* Sounds */,
+=======
+>>>>>>> origin/main
 				17A7E5911FB525F30044C48F /* Levels */,
 				17A7E57E1FB513CC0044C48F /* Assets.xcassets */,
 				170D54271FB6919C00BB205A /* Grid.atlas */,
 				17A7E5891FB516370044C48F /* Sprites.atlas */,
+<<<<<<< HEAD
 >>>>>>> 1575b20 (Attempt to fix the folder thing)
+=======
+>>>>>>> origin/main
 			);
 			path = CookieCrunch;
 			sourceTree = "<group>";
@@ -211,10 +236,14 @@
 					17A7E56D1FB513CC0044C48F = {
 						CreatedOnToolsVersion = 9.1;
 <<<<<<< HEAD
+<<<<<<< HEAD
 						LastSwiftMigration = 1500;
 =======
 						LastSwiftMigration = "";
 >>>>>>> 1575b20 (Attempt to fix the folder thing)
+=======
+						LastSwiftMigration = "";
+>>>>>>> origin/main
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -246,9 +275,13 @@
 				17A7E5AE1FB53C850044C48F /* Drip.wav in Resources */,
 				17A7E58A1FB516380044C48F /* Sprites.atlas in Resources */,
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 				170D54281FB6919C00BB205A /* Grid.atlas in Resources */,
 >>>>>>> 1575b20 (Attempt to fix the folder thing)
+=======
+				170D54281FB6919C00BB205A /* Grid.atlas in Resources */,
+>>>>>>> origin/main
 				17A7E59B1FB525F30044C48F /* Level_1.json in Resources */,
 				17A7E5971FB525F30044C48F /* Level_2.json in Resources */,
 				17A7E57D1FB513CC0044C48F /* Main.storyboard in Resources */,
@@ -277,6 +310,7 @@
 				1769DFF91FE3818B00F99A23 /* LevelData.swift in Sources */,
 				17A7E57A1FB513CC0044C48F /* GameViewController.swift in Sources */,
 <<<<<<< HEAD
+<<<<<<< HEAD
 				3D9E2DE72B21F0F5009D4869 /* Chain.swift in Sources */,
 				3DBE6DFA2B15DDD40025C636 /* Cookie.swift in Sources */,
 				3DBE6DFC2B15E1950025C636 /* Level.swift in Sources */,
@@ -287,6 +321,11 @@
 				3DBE6DFC2B15E1950025C636 /* Level.swift in Sources */,
 				17A7E5721FB513CC0044C48F /* AppDelegate.swift in Sources */,
 >>>>>>> 1575b20 (Attempt to fix the folder thing)
+=======
+				3DBE6DFA2B15DDD40025C636 /* Cookie.swift in Sources */,
+				3DBE6DFC2B15E1950025C636 /* Level.swift in Sources */,
+				17A7E5721FB513CC0044C48F /* AppDelegate.swift in Sources */,
+>>>>>>> origin/main
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,15 +465,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 <<<<<<< HEAD
+<<<<<<< HEAD
 				DEVELOPMENT_TEAM = YR5C7V4NKP;
 =======
 				DEVELOPMENT_TEAM = "";
 >>>>>>> 1575b20 (Attempt to fix the folder thing)
+=======
+				DEVELOPMENT_TEAM = "";
+>>>>>>> origin/main
 				INFOPLIST_FILE = CookieCrunch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+<<<<<<< HEAD
 <<<<<<< HEAD
 				PRODUCT_BUNDLE_IDENTIFIER = com.zorchek.CookieCrunch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +488,11 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 >>>>>>> 1575b20 (Attempt to fix the folder thing)
+=======
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.CookieCrunch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+>>>>>>> origin/main
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -454,15 +503,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 <<<<<<< HEAD
+<<<<<<< HEAD
 				DEVELOPMENT_TEAM = YR5C7V4NKP;
 =======
 				DEVELOPMENT_TEAM = "";
 >>>>>>> 1575b20 (Attempt to fix the folder thing)
+=======
+				DEVELOPMENT_TEAM = "";
+>>>>>>> origin/main
 				INFOPLIST_FILE = CookieCrunch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+<<<<<<< HEAD
 <<<<<<< HEAD
 				PRODUCT_BUNDLE_IDENTIFIER = com.zorchek.CookieCrunch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -472,6 +526,11 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 >>>>>>> 1575b20 (Attempt to fix the folder thing)
+=======
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.CookieCrunch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+>>>>>>> origin/main
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
